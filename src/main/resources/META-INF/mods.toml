@@ -1,0 +1,13 @@
+modLoader="javafml"
+author="CapitainFoxy"
+loaderVersion="[1.19.2,)"
+license="CUSTOM"
+issueTrackerURL="https://github.com/yourrepo/issues"
+
+[[mods]]
+modId="survivaloverhaul"
+version="1.0.0"
+displayName="Survival Overhaul"
+description='''
+This mod introduces realistic survival mechanics, including temperature, food, hydration, fatigue, diseases, and injury systems.
+'''
