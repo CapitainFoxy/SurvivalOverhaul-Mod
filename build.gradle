@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '5.1.+'
+}
+
+group = 'com.capitainfoxy.survivaloverhaul'
+version = '1.0.0'
+archivesBaseName = 'survivaloverhaul'
+
+minecraft {
+    mappings channel: 'official', version: '1.19.2'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.2-43.1.1'
+}
